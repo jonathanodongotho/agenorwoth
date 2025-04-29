@@ -134,6 +134,10 @@ header {
   background: white;
   color: black;
   padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+.navbar-brand.footer:hover {
+  color: black;
 }
 
 .navbar-scrolled {
@@ -671,7 +675,7 @@ footer {
   }
   
   .about-section {
-    flex-direction: row;
+    flex-direction: ;
   }
   
   .about-content,
