@@ -71,7 +71,7 @@
   <main>
     <section id="contact" class="page active-page">
       <!-- Hero Section -->
-      <div class="hero-section" style="background-image: url('https://images.unsplash.com/photo-1557425529-b1ae9c141e7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'); height: 50vh;">
+      <div class="hero-section" style="background-image: url('images/buk\ 4.jpg'); height: 50vh;">
         <div class="hero-overlay"></div>
         <div class="container">
           <div class="hero-content fade-in">
@@ -100,9 +100,9 @@
                   ">
                     <i class="fas fa-map-marker-alt" style="font-size: 1.5rem; color: var(--white);"></i>
                   </div>
-                  <h3 style="font-size: 1.5rem;">Visit Us</h3>
+                  <h3 style="font-size: 1.5rem;">Address</h3>
                 </div>
-                <p style="text-align: center;">Plot 45, Obote Avenue<br>Lira City, Uganda</p>
+                <p style="text-align: center;">P.O.Box 331674,<br>Lira City, Uganda</p>
               </div>
             </div>
             <div class="card slide-in-left" style="animation-delay: 0.2s;">
@@ -122,7 +122,7 @@
                   </div>
                   <h3 style="font-size: 1.5rem;">Call Us</h3>
                 </div>
-                <p style="text-align: center;">+256 781 234 567<br>+256 701 234 567</p>
+                <p style="text-align: center;">+256 779 258 249<br>+256 701 020 127</p>
               </div>
             </div>
             <div class="card slide-in-left" style="animation-delay: 0.4s;">
@@ -142,7 +142,7 @@
                   </div>
                   <h3 style="font-size: 1.5rem;">Email Us</h3>
                 </div>
-                <p style="text-align: center;">info@agenorwot.co.ug<br>sales@agenorwot.co.ug</p>
+                <p style="text-align: center;">agenorwottechnicalcontractors@gmail.com</p>
               </div>
             </div>
           </div>
@@ -161,77 +161,67 @@
           <div class="contact-form-container">
             <div class="row">
               <div class="col-md-6 slide-in-left">
-                <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Construction team meeting" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--border-radius);">
+                <img src="images/pallisa 1.jpg" alt="Construction team meeting" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--border-radius);">
               </div>
               
               <div class="col-md-6 slide-in-right">
-                <form id="contactForm" class="animated-form">
-                  <div class="form-group">
-                    <div class="input-wrapper">
-                      <input type="text" id="name" class="form-control animated-input" required>
-                      <label for="name" class="animated-label">Full Name</label>
-                      <div class="input-status-icon"></div>
-                      <div class="error-message">Please enter your name</div>
-                    </div>
+                <form id="contactForm" class="needs-validation" novalidate>
+                  <!-- Full Name -->
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                    <div class="invalid-feedback">Please enter your name</div>
                   </div>
-                  
-                  <div class="form-group">
-                    <div class="input-wrapper">
-                      <input type="email" id="email" class="form-control animated-input" required>
-                      <label for="email" class="animated-label">Email Address</label>
-                      <div class="input-status-icon"></div>
-                      <div class="error-message">Please enter a valid email address</div>
-                    </div>
+                
+                  <!-- Email -->
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" required>
+                    <div class="invalid-feedback">Please enter a valid email address</div>
                   </div>
-                  
-                  <div class="form-group">
-                    <div class="input-wrapper">
-                      <input type="tel" id="phone" class="form-control animated-input" required>
-                      <label for="phone" class="animated-label">Phone Number</label>
-                      <div class="input-status-icon"></div>
-                      <div class="error-message">Please enter a valid phone number</div>
-                    </div>
+                
+                  <!-- Phone -->
+                  <div class="mb-3">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" required>
+                    <div class="invalid-feedback">Please enter a valid phone number</div>
                   </div>
-                  
-                  <div class="form-group">
-                    <div class="input-wrapper select-wrapper">
-                      <select id="service" class="form-control animated-input" required>
-                        <option value=""></option>
-                        <option value="Building Construction">Building Construction</option>
-                        <option value="Road Construction">Road Construction</option>
-                        <option value="Structural Engineering">Structural Engineering</option>
-                        <option value="Renovations">Renovations</option>
-                        <option value="Equipment Supply">Equipment Supply</option>
-                        <option value="Other">Other</option>
-                      </select>
-                      <label for="service" class="animated-label">Service of Interest</label>
-                      <div class="input-status-icon"></div>
-                      <div class="error-message">Please select a service</div>
-                    </div>
+                
+                  <!-- Service of Interest -->
+                  <div class="mb-3">
+                    <label for="service" class="form-label">Service of Interest</label>
+                    <select class="form-select" id="service" required>
+                      <option value="">-- Select a service --</option>
+                      <option value="Building Construction">Building Construction</option>
+                      <option value="Road Construction">Road Construction</option>
+                      <option value="Structural Engineering">Structural Engineering</option>
+                      <option value="Renovations">Renovations</option>
+                      <option value="Equipment Supply">Equipment Supply</option>
+                      <option value="Other">Other</option>
+                    </select>
+                    <div class="invalid-feedback">Please select a service</div>
                   </div>
-                  
-                  <div class="form-group">
-                    <div class="input-wrapper">
-                      <textarea id="message" class="form-control animated-input" rows="4" required></textarea>
-                      <label for="message" class="animated-label">Your Message</label>
-                      <div class="input-status-icon"></div>
-                      <div class="error-message">Please enter your message</div>
-                    </div>
+                
+                  <!-- Message -->
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                    <div class="invalid-feedback">Please enter your message</div>
                   </div>
-                  
-                  <div class="form-group">
-                    <div class="checkbox-wrapper">
-                      <input type="checkbox" id="consent" class="animated-checkbox" required>
-                      <label for="consent">I agree to the processing of my personal data in accordance with the Privacy Policy</label>
-                      <div class="error-message">You must agree to the privacy policy</div>
-                    </div>
+                
+                  <!-- Consent Checkbox -->
+                  <div class="mb-3 form-check">
+                    <input class="form-check-input" type="checkbox" id="consent" required>
+                    <label class="form-check-label" for="consent">
+                      I agree to the processing of my personal data in accordance with the Privacy Policy
+                    </label>
+                    <div class="invalid-feedback">You must agree to the privacy policy</div>
                   </div>
-                  
-                  <div class="form-group">
-                    <button type="submit" class="submit-button">
-                      <span class="button-text">Send Message</span>
-                      <i class="button-icon fas fa-paper-plane"></i>
-                      <span class="button-loader"></span>
+                
+                  <!-- Submit Button -->
+                  <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">
+                      <i class="fas fa-paper-plane me-1"></i> Send Message
                     </button>
                   </div>
                 </form>
