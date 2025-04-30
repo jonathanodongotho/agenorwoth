@@ -290,6 +290,20 @@ header {
   gap: 2rem;
 }
 
+.grid.team {
+  grid-template-columns: none;
+  display: flex;
+  justify-content: center;
+}
+.team-image {
+  width: 80vw;
+}
+
+.team-image img {
+  width: 100%;
+  height: auto;
+}
+
 .card {
   background-color: var(--white);
   border-radius: var(--border-radius);
